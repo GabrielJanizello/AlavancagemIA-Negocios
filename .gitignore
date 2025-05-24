@@ -1,0 +1,20 @@
+# Ignorar pastas e arquivos específicos da IDE (PyCharm neste caso)
+.idea/
+
+# Ignorar o ambiente virtual Python
+.venv/
+venv/ # Inclui 'venv' caso use esse nome também
+
+# Ignorar caches do Python
+__pycache__/
+*.pyc
+
+# Ignorar caches e arquivos temporários de sistema (se houver)
+*.bin
+*.tmp
+*cache*
+Thumbs.db # Para usuários Windows
+
+# Ignorar dados de API ou variáveis de ambiente sensíveis
+.env
+*.env
